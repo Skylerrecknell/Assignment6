@@ -26,7 +26,8 @@ var locations = [
     ]
 ]
 
-    var map = new google.maps.Map(document.getElementById('map'), {
+
+    var map = new google.maps.Map(document.getElementById("map"), {
       zoom: 15,
       center: new google.maps.LatLng(48.463649,  -123.311951),
       mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -58,6 +59,3 @@ alert(cnt);
         }
       })(marker, i));
     }
-
-
-
